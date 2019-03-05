@@ -1,0 +1,25 @@
+.itemMenu {
+    p{
+      &:hover{
+        color: #f37037;
+      }
+    }
+    img{
+      margin-left: 25%;
+    }  
+}
+.selected .selected_song {
+    color: #f37037;
+}
+.pad {
+    padding-left: 14%;
+    &:hover{
+      background-color: #2e2e2e;
+    }
+}
+.option_selected {
+    background-color: #2e2e2e;
+}
+.div_canciones {
+    display: none;
+}

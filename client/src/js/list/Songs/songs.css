@@ -1,0 +1,21 @@
+.li_cancion {
+  margin: 8px 0px;
+}
+
+.cancion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-right: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tiempo {
+  margin: 2%;
+}
+/*# sourceMappingURL=songs.css.map */

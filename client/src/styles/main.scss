@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+// Generales
+@import "partsSCSS/general";
+
+// Mixins
+@import "partsSCSS/mixins";
+
+// Nativos
+@import "partsSCSS/nativos";
+
+// Clases
+@import "partsSCSS/clases";
+/// Reproductor
+@import "../js/components/Player/player.scss";
+/// Profile
+@import "../js/components/Profile/profile.scss";
+/// Search
+@import "../js/components/Search/search.scss";
+/// Albums
+@import "../js/list/Albums/albums.scss";
+/// Artists
+@import "../js/list/Artists/artists.scss";
+/// Songs
+@import "../js/list/Songs/songs.scss";
+
+/// Imagenes
+@import "partsSCSS/imagenes";
+/// Textos
+@import "partsSCSS/textos";
+
+// IDS
+@import "partsSCSS/ids"; 

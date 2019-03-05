@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,gBAAgB,EAAE,qDAAqD;CAC1E",
+    "sources": [
+        "albums.scss"
+    ],
+    "names": [],
+    "file": "albums.css"
+}

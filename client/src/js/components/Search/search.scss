@@ -1,0 +1,19 @@
+#inputBuscar {
+    border-radius: 10px;
+    background-color: #333333;
+    border-color: #f37037;
+    margin-left: 2%;
+    background: url(C:\Projects\globify\client\src\images\lupa.png) no-repeat;
+    padding-left: 5%;
+    height: 30px;
+    width: 45%;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+
+    @include mobile_size {
+      width: 85%;
+      height: 50%;
+      margin: 20px;
+    }
+  }

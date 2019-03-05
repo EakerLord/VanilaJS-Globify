@@ -1,0 +1,34 @@
+.imagen, .imagen_artista, .imagen_perfil, .repeat, .imagen_mobile{
+    border-radius: 50%;
+  }
+.imagen_artista {
+    width: 130px;
+    height: 130px;
+}
+.imagen_perfil {
+    width: 55px;
+    height: 55px;
+}
+.imagen_mobile {
+    width: 16px;
+    height: 16px;
+}
+.repeat {
+    filter: invert(100%);
+}
+.iconRotate {
+    transform: rotate(180deg);
+}
+.barra {
+    display: none;
+
+    @include mobile_size {
+        display: block;
+    }
+}
+.selected_song {
+    list-style-image: url(/images/Group_4.png);
+}
+.li_canciones {
+    list-style-image: url(C:\Projects\globify\client\src\images\Group_2.png);
+}

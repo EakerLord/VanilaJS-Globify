@@ -1,0 +1,65 @@
+.reproductor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3% 0%;
+  
+    display: none;
+    background-color: #2e2e2e;
+  
+    @include mobile_size {
+      display: block;
+    }
+}
+.reproductorArtista {
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  text-align: center;
+}
+.barraTiempo {
+  background-color: #f37037;
+  height: 3px;
+  margin: 2% 5%;
+}
+.duration {
+  display: flex;
+  width: 100%;
+  color: #f37037;
+
+  .tiempoReproducido {
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 5%;
+  }
+
+  .tiempoTotal {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+  }
+}
+.botonesReproductor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
+  .material-icons {
+    color: white;
+    font-size: 50px;
+  }
+
+  .botonPlay {
+    font-size: 90px;
+    color: #f37037;
+    height: 100%;
+  }
+}
+.teclas {
+  &:hover{
+    color: #f37037;
+  }
+}

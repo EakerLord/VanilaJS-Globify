@@ -1,0 +1,37 @@
+$mobile: 820px;
+@mixin mobile_size {
+  @media screen and (max-width: $mobile){
+    @content;
+  }
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+    margin: 2%;
+    overflow-y: scroll;
+    height: 100%;
+    @include mobile_size {
+      height: 90%;
+    }
+}
+.paddNomArtist {
+    padding: 5%;
+}
+.artista {
+    width: 30%;
+    margin: 1%;
+    padding-top: 2%;
+    text-align: center;
+	border-radius: 20%;
+    &:hover{
+        background-color: #1a1a1a;
+        border-radius: 20%;
+    }
+
+    @include mobile_size {
+        width: 30%;
+    }
+}
